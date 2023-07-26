@@ -1,6 +1,6 @@
-#include "PhoneDisplay.cpp"
-#include "WeatherStation.cpp"
-#include "WindowDisplay.cpp"
+#include "PhoneDisplay.h"
+#include "WeatherStation.h"
+#include "WindowDisplay.h"
 #include <bits/stdc++.h>
 using namespace std;
 

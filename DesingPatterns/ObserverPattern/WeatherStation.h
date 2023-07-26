@@ -18,9 +18,9 @@ public:
   WeatherStation(int temperature) : temperature(temperature) {
     cout << "WeatherStation parametrized constructor" << endl;
   }
-  void add(IObserver *observer) { this->observers.insert(observer); }
-  void remove(IObserver *observer) { this->observers.erase(observer); }
-  void notify() {
+  void add(IObserver *observer) override { this->observers.insert(observer); }
+  void remove(IObserver *observer) override { this->observers.erase(observer); }
+  void notify() override {
     for (IObserver *observer : observers) {
       // push the update to observer
       observer->update();
