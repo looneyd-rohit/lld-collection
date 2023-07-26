@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include "Duck.h"
+#include "Duck.cpp"
 using namespace std;
 
 int main(){
