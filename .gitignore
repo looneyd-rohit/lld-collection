@@ -3,3 +3,14 @@
 
 **/*.o
 output
+
+**/out/**
+**/out/*
+
+**/*.o
+
+.idea
+.iml
+.vscode
+
+
